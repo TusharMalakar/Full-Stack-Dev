@@ -24,7 +24,8 @@
  
  NB: If you cant run project because of configuration: 
 - Top-right of your pycharm IDE you will see a drop down menu to "Edit configuration.."
-- ![configure](https://user-images.githubusercontent.com/35859780/80873482-ccefdf00-8c86-11ea-96d5-e7bb9721a3de.PNG)
+- ![configure](https://user-images.githubusercontent.com/35859780/80873679-40462080-8c88-11ea-9196-ccee38f0c880.PNG)
+
 
         
 # git commands:
