@@ -1,5 +1,4 @@
+jwt
 flask
-flask-cors
-wheel
-pymongo
-dnspython
+pyodbc
+flask_cors

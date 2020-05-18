@@ -4,10 +4,12 @@ import platform
 
 from flask import Flask
 from flask_cors import CORS
+from controllers.accounts_api import account_api
 
 
 app = Flask(__name__)
 CORS(app)
+app.register_blueprint(account_api, url_prefix='/account')
 
 
 # Root https://pyback.appspot.com/
@@ -16,7 +18,7 @@ def helloWorld():
     """
     http://127.0.0.1:5000
     """
-    return json.dumps({'success': 'welcome to nyc library server'})
+    return json.dumps({'success': 'Welcome to Full-Stack Tutorial'})
 
 
 if __name__ == "__main__":
